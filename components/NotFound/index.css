@@ -1,0 +1,19 @@
+/* Write your CSS code here */
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.notfound-heading {
+  color: #551e53;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 50px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .notfound-image {
+    height: 300px;
+    width: 300px;
+  }
+}
