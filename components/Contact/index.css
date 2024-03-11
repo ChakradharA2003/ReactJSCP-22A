@@ -1,0 +1,22 @@
+/* Write your CSS code here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-heading {
+  color: #551e53;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 50px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .contact-image {
+    height: 300px;
+    width: 300px;
+  }
+  .contact-heading {
+    font-size: 30px;
+  }
+}
