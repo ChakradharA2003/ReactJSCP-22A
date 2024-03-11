@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+* {
+  font-family: 'Roboto';
+}
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading {
+  color: #551e53;
+  margin-top: 30px;
+  font-size: 50px;
+  font-weight: bold;
+}
+.about-para {
+  color: #12022f;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .about-image {
+    height: 300px;
+    width: 300px;
+  }
+  .about-heading {
+    font-size: 30px;
+  }
+  .about-para {
+    font-size: 20px;
+    text-align: center;
+  }
+}
